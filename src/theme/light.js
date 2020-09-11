@@ -1,4 +1,7 @@
 export default {
-    background: '#fff',
-    color: '#000'
+    title: 'light',
+    colors:{
+        background: '#fff',
+        color: '#000'
+    }
 }
