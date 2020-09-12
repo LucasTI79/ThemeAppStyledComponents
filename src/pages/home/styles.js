@@ -12,6 +12,3 @@ export const Title = styled.Text`
     font-size: 44px;
 `;
 
-export const ButtonTheme = styled.Switch`
-    background: #ccc,
-`;

@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 // import { useColorScheme } from 'react-native';
 
-import Home from './src/home/home';
+import Routes from './src/routes'
 import themes from './src/theme';
-import light from './src/theme/light';
+import SwithButtonTheme from './src/components/ToggleTheme/index'
 
 const App = () => {
     // const deviceTheme = useColorScheme();
@@ -18,7 +18,8 @@ const App = () => {
     
   return(
     <ThemeProvider theme={theme}>
-        <Home toggleTheme={toggleTheme}/>
+        <SwithButtonTheme toggleTheme={toggleTheme}/>
+        <Routes />
     </ThemeProvider>
     ) 
 }
